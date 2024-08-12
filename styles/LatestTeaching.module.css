@@ -1,0 +1,39 @@
+.teachingContainer {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.teachingList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.teachingItem {
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.teachingItem h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.teachingItem p {
+    margin: 0.5rem 0 0;
+    color: #666;
+}
+
+.teachingContainer h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}

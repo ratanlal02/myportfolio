@@ -1,0 +1,83 @@
+.adminNewsContainer {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.heading {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.button {
+    padding: 0.5rem;
+    background-color: #09101a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.newsList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.newsItem {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.editButton,
+.deleteButton {
+    margin-right: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+.editButton {
+    background-color: #f0ad4e;
+}
+
+.deleteButton {
+    background-color: #d9534f;
+}
+
+.newsImage {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: cover;
+    margin-top: 1rem;
+}
+
+.newsDocument {
+    margin-top: 1rem;
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+}

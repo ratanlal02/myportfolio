@@ -1,0 +1,33 @@
+.dashboardContainer {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.heading {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.linkList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.linkItem {
+    display: block;
+    padding: 1rem;
+    background-color: #09101a;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.linkItem:hover {
+    background-color: #333;
+}

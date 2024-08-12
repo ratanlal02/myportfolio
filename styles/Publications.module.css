@@ -1,0 +1,47 @@
+.publicationsContainer {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.heading {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.publicationsList {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.publicationItem {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.title {
+    font-size: 1.0rem;
+    margin-bottom: 0.5rem;
+}
+
+.description {
+    margin-bottom: 0.5rem;
+}
+
+.link {
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.readMoreButton {
+    padding: 0.5rem 1rem;
+    background-color: #09101a;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}

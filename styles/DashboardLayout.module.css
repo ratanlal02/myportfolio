@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+}
+
+.content {
+    margin-left: 250px;
+    padding: 2rem;
+    width: 100%;
+    background-color: #f0f0f0;
+    min-height: 100vh;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+.logoutButton {
+    padding: 0.5rem 1rem;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logoutButton:hover {
+    background-color: #c9302c;
+}

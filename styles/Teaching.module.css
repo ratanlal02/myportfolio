@@ -1,0 +1,63 @@
+.teachingContainer {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.heading {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.teachingList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.teachingBox {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.teachingBox:hover {
+    transform: scale(1.05);
+}
+
+.teachingContent {
+    padding: 1rem;
+}
+
+.teachingTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.teachingDescription {
+    font-size: 0.8rem;
+}
+
+.readMoreContainer {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.readMoreButton {
+    background-color: #09101a;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.readMoreButton:hover {
+    background-color: #333;
+}
